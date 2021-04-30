@@ -1,0 +1,39 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+@font-face {
+  font-family: antrf___;
+  src: url('../font/antrf___.ttf');
+}    
+body {
+  background-color: #d9be53;
+}
+.lead {
+  color: #4d0f01;
+  font-family: antrf___;
+}
+.col-lg-6 {
+  width: 80%;
+}
+.card {
+  background-color: peru;
+}
+.card-body {
+  font-size: 18px;
+}
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+}
