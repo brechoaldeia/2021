@@ -20,6 +20,12 @@ body {
 .lead {
   color: #4d0f01;
   font-family: antrf___;
+  font-size: 1.6rem;
+}
+.lead-mini {
+  color: #4d0f01;
+  font-family: antrf___;
+  font-size: 1.25rem;
 }
 .col-lg-6 {
   width: 80%;
@@ -28,7 +34,7 @@ body {
   background-color: peru;
 }
 .card-body {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 .link {
   color: whitesmoke;
