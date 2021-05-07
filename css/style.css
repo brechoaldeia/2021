@@ -14,9 +14,13 @@
   font-family: antrf___;
   src: url('../font/antrf___.ttf');
 }    
-body {
+header {
   background-color: #d9be53;
 }
+body {
+  background-color: darkcyan;
+}
+
 .lead {
   color: #4d0f01;
   font-family: antrf___;
@@ -31,7 +35,9 @@ body {
   width: 80%;
 }
 .card {
-  background-color: peru;
+  /* background-color: peru; */
+  background-color: #d9be53;
+  border-radius: 2rem;
 }
 .card-body {
   font-size: 1.1rem;
@@ -42,4 +48,14 @@ body {
 }
 .link:hover {
   color: white;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #eee;
+  text-align: center;
+  background-color: #darkcyan;
 }
